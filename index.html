@@ -7,32 +7,31 @@
     <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
-    <header>
-      <h1>World Clock</h1>
-    </header>
-    <main>
-      <select name="" id="selection">
-        <option value="">Select a city</option>
-        <option value="berlin">Berlin</option>
-        <option value="london">London</option>
-      </select>
-      <div class="city">
-        <h2>Los Angeles</h2>
-      </div>
-      <div class="date">February 15th 2024</div>
-      <div class="time">7:42:55 PM</div>
-      <div class="city">
-        <h2>Sydney</h2>
-      </div>
-      <div class="date">February 15th 2024</div>
-      <div class="time">7:42:55 PM</div>
-    </main>
-    <footer>
-      <p>
-        This project was coded by Sarina Schoknecht & is open sourced on
-        <a href="https://github.com/SarinaSevda">GitHub</a>.
-      </p>
-    </footer>
+    <div class="container">
+      <header>
+        <h1>World Clock</h1>
+      </header>
+      <main>
+        <select name="" id="selection">
+          <option value="">Select a city</option>
+          <option value="berlin">Berlin</option>
+          <option value="london">London</option>
+        </select>
+        <div class="city">
+          <div>
+            <h2>Los Angeles</h2>
+            <div class="date">February 15th 2024</div>
+          </div>
+          <div class="time">7:42:55 <small>PM</small></div>
+        </div>
+      </main>
+      <footer>
+        <p>
+          This project was coded by Sarina Schoknecht & is open sourced on
+          <a href="https://github.com/SarinaSevda">GitHub</a>.
+        </p>
+      </footer>
+    </div>
     <script src="javascript/index.js"></script>
   </body>
 </html>
